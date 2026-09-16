@@ -1,0 +1,15 @@
+local MAX_LEVEL = 2800
+
+while task.wait(0.2) do
+    local level = player.Data.Level.Value
+
+    if level >= MAX_LEVEL then
+        break
+    end
+
+    -- Auto nhận quest
+    -- Tìm NPC
+    -- Di chuyển
+    -- Đánh NPC
+    -- Nhận XP
+end
